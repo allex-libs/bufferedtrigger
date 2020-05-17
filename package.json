@@ -1,0 +1,25 @@
+{
+  "name": "allex_bufferedtriggerlib",
+  "version": "1.0.0",
+  "description": "AllexJS lib that implements a buffered trigger",
+  "main": "index.js",
+  "scripts": {
+    "test": "allex-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-libs/bufferedtrigger.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "buffered",
+    "trigger",
+    "lib"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-libs/bufferedtrigger/issues"
+  },
+  "homepage": "https://github.com/allex-libs/bufferedtrigger#readme"
+}
