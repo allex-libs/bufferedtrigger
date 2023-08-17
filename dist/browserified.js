@@ -24,6 +24,10 @@ function createBufferedTrigger (execlib) {
     this.fire(val);
   };
   BufferedTrigger.prototype.fire = function (val) {
+    //if it is an event
+    if (val && val.originalEvent && val.originalEvent.keyCode && val.originalEvent.keyCode.length>1) {
+      return;
+    }
     if (this.timeout) {
       return;
     }
